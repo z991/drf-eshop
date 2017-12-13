@@ -1,0 +1,70 @@
+INFO:root:user 1 cart changed, product 12 related. Time is 2017-12-13 15:11:03.370424.
+INFO:root:user 1 cart changed, product 8 related. Time is 2017-12-13 15:46:13.051091.
+INFO:root:user 1 cart changed, product 15 related. Time is 2017-12-13 15:50:26.260573.
+INFO:root:user 1 cart changed, product 16 related. Time is 2017-12-13 16:03:00.715726.
+DEBUG:MARKDOWN:Successfuly imported extension module "markdown.extensions.toc".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.toc.TocExtension".
+DEBUG:root:this is debug
+INFO:root:user 1 cart changed, product 4 related. Time is 2017-12-13 16:05:38.015723.
+DEBUG:MARKDOWN:Successfuly imported extension module "markdown.extensions.toc".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.toc.TocExtension".
+DEBUG:root:this is debug
+INFO:root:user 1 cart changed, product 3 related. Time is 2017-12-13 16:09:28.832925.
+DEBUG:root:this is debug
+INFO:root:user 1 cart changed, product 11 related. Time is 2017-12-13 16:11:17.780156.
+WARNING:django.request:Not Found: /computer/order_rud/57/
+ERROR:django.request:Internal Server Error: /computer/order_rud/51/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\rest_framework\generics.py", line 284, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\rest_framework\mixins.py", line 56, in retrieve
+    instance = self.get_object()
+  File "D:\lvliang\rest_classes\class_1704\day5\eshop\eshop\eshop\computerapp\views.py", line 272, in get_object
+    obj = Order.objects.get(user=user, id=self.kwargs['pk'])
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\query.py", line 385, in get
+    self.model._meta.object_name
+computerapp.models.DoesNotExist: Order matching query does not exist.
+DEBUG:MARKDOWN:Successfuly imported extension module "markdown.extensions.toc".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.toc.TocExtension".
+DEBUG:MARKDOWN:Successfuly imported extension module "markdown.extensions.toc".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.toc.TocExtension".
+DEBUG:MARKDOWN:Successfuly imported extension module "markdown.extensions.toc".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.toc.TocExtension".
+DEBUG:MARKDOWN:Successfuly imported extension module "markdown.extensions.toc".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.toc.TocExtension".
+DEBUG:root:this is debug
+INFO:root:user 1 cart changed, product 9 related. Time is 2017-12-13 16:31:33.544694.
+DEBUG:root:this is debug
+INFO:root:user 1 cart changed, product 12 related. Time is 2017-12-13 16:32:22.910518.
+DEBUG:MARKDOWN:Successfuly imported extension module "markdown.extensions.toc".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.toc.TocExtension".
+WARNING:django.request:Not Found: /computer/cart_rud
+WARNING:django.request:Not Found: /computer/cart_rud/59
+DEBUG:MARKDOWN:Successfuly imported extension module "markdown.extensions.toc".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.toc.TocExtension".
+DEBUG:MARKDOWN:Successfuly imported extension module "markdown.extensions.toc".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.toc.TocExtension".
+DEBUG:MARKDOWN:Successfuly imported extension module "markdown.extensions.toc".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.toc.TocExtension".
+DEBUG:root:this is debug
+INFO:root:user 1 cart changed, product 10 related. Time is 2017-12-13 16:33:57.628935.
+DEBUG:root:this is debug
+INFO:root:user 1 cart changed, product 3 related. Time is 2017-12-13 16:35:08.240974.
